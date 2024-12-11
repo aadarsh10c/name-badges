@@ -1,8 +1,8 @@
 import React from 'react';
 
 type ControlPanelProps = {
-  name: string;
-  onChange: React.ChangeEventHandler<HTMLInputElement>;
+  name: string,
+  onChange: React.ChangeEventHandler<HTMLInputElement>
 };
 
 const ControlPanel = ({ name, onChange }: ControlPanelProps) => {
